@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="script/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        .btn{
+            @apply p-2 text-center bg-yellow-300 rounded-xl text-sky-700 font-semibold md:text-xl;
+        }
+        
+    </style>
+    <title>Exo 03 - Tailwind</title>
+
+</head>
+<body class="min-h-screen flex justify-center items-center  bg-[url(https://static.vecteezy.com/system/resources/previews/018/861/505/non_2x/traditional-japanese-wave-pattern-luxury-hand-drawn-oriental-ocean-wave-splash-line-art-pattern-background-art-design-illustration-for-print-fabric-poster-home-decoration-and-wallpaper-vector.jpg)] md:bg-bottom bg-no-repeat bg-cover md:bg-cover ">
+
+    <div class="flex flex-col justify-center items-center gap-2 md:gap-4 w-60 h-140 md:w-125 md:h-250 backdrop-blur-xl border-solid border-3 border-radius-xl border-white rounded-2xl">
+        <div class="bg-[url(https://wallpapercave.com/wp/wp12759209.jpg)] w-20 h-20 md:w-60 md:h-60 rounded-full bg-right bg-cover"></div>
+        <div class="flex flex-col justify-center items-center md:p-5">
+            <h1 class="font-bold text-2xl md:text-5xl text-sky-800 ">Anne Onyme</h1>
+            <p class="text-center text-md md:text-2xl p-3 text-white md:text-sky-800 font-semibold">Développeuse Front-end & passionée d'UX/UI et d'accessibilité</p>
+        </div>
+        <div class="flex flex-col gap-3 h-60 w-40 md:w-80">
+            <a href="" class="btn">Portfolio</a>
+            <a href="" class="btn">GitHub</a>
+            <a href="" class="btn">Linkedin</a>
+            <a href="" class="btn">Instagram</a>
+            <a href="" class="btn">Me connecter</a>
+        </div>
+        <span class="text-center text-xs mt-8 md:mt-20 text-white font-semibold md:text-xl">@ Anne Onyme - 2026</span>
+    </div>
+
+</body>
+</html>
